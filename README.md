@@ -1,11 +1,9 @@
-# Autohotkey-Server-Login-Register
+﻿# Autohotkey-Server-Login-Register
 서버 연동해서 손쉽게 로그인,회원가입할 수 있는 라이브러리입니다.
 
-# ServerLib_A.ahk와 ServerLib.ahk차이
-=======
 ## ServerLib_A.ahk와 ServerLib.ahk차이
->>>>>>> develop
 ServerLib_A.ahk는 관리자 용 라이브러리 이고 ServerLib.ahk는 일반 사용자 용 라이브러리입니다.
+
 # 설치
  1. 스크립트에 ServerLib.ahk을 포함시킵니다.
  ```Autohotkey
