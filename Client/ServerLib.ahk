@@ -1,6 +1,6 @@
 ﻿class Server
 {
-    _URL := "http://faumes.com/Server/" ;Server URL
+    _URL := "" ;Server URL
     _Name := "Server"
     _ID := "" ;ID
     _PW := "" ;PW
