@@ -1,9 +1,9 @@
 ﻿-- phpMyAdmin SQL Dump
--- version 4.8.2
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- 생성 시간: 19-03-28 16:57
+-- 생성 시간: 19-04-07 21:31
 -- 서버 버전: 5.7.25
 -- PHP 버전: 5.6.40
 
@@ -40,6 +40,13 @@ CREATE TABLE `members` (
   `ComputerHard1` varchar(255) DEFAULT 'NULL',
   `License` varchar(10) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=euckr;
+
+--
+-- 테이블의 덤프 데이터 `members`
+--
+
+INSERT INTO `members` (`joinDateTime`, `id`, `password`, `email`, `name`, `resetToken`, `resetComplete`, `ComputerName1`, `ComputerHard1`, `License`) VALUES
+('2019-03-28 17:01:51', 'test1234', '$2y$10$hOAf1YI49UZ3f0a7uZtUk.irluPKBNR4KfkqNEVSIcYova.oDYdlq', 'test1234@test123.com', 'test', NULL, NULL, 'NULL', 'NULL', NULL);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
