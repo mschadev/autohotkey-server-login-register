@@ -57,7 +57,7 @@ try
     $mail->SMTPSecure = "tls"; // sets the prefix to the servier
     $mail->Host = "smtp.gmail.com"; // sets GMAIL as the SMTP server
     $mail->Port = 587; // set the SMTP port for the GMAIL server
-    $mail->id = EMAIL_ID; //GMAIL id
+    $mail->Username = EMAIL_ID; //GMAIL id
     $mail->Password = EMAIL_PW; // GMAIL password
     $mail->CharSet = 'UTF-8';
     $mail->SMTPAutoTLS = false;
